@@ -5,6 +5,8 @@ import 'package:todo_app/home/homescreen/home_screen.dart';
 
 class SplashScreen extends StatelessWidget {
   static const String routeName = "splash";
+
+  const SplashScreen({super.key});
   @override
   Widget build(BuildContext context) {
     var mediaQuery = MediaQuery.of(context).size;
